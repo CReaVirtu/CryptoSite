@@ -1,24 +1,55 @@
-# user-profile-app
+# CryptoSite  
 
-## Project setup
-```
-npm install
-```
+**CryptoSite** — это веб-приложение, предоставляющее информацию о криптовалютных биржах и кошельках. Оно также включает профиль пользователя с визуализацией данных и иллюзией подключения кошелька.  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Демо  
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Ознакомиться с демо-версией проекта можно по ссылке:  
+[CryptoSite Demo](https://rina2316.github.io/CryptoSite/)  
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Функционал  
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Главная страница  
+- Информация о криптовалютных биржах и кошельках.  
+- Иллюзорный функционал подключения кошелька.  
+- График с демонстрационными (моковыми) данными.  
+
+### Профиль пользователя  
+- Доступен при клике на имя пользователя в хедере.  
+- Отображение информации о пользователе.  
+- График с демонстрацией посещений пользователя.  
+- Кнопки для связи с пользователем.  
+
+## Установка и запуск  
+
+1. Клонируйте репозиторий:  
+   ```bash
+   git clone https://github.com/CReaVirtu/CryptoSite.git
+   cd CryptoSite
+   ```  
+
+2. Установите зависимости:  
+   ```bash
+   npm install
+   ```  
+
+3. Запустите проект в режиме разработки:  
+   ```bash
+   npm run serve
+   ```  
+
+4. Для сборки проекта в продакшен:  
+   ```bash
+   npm run build
+   ```  
+
+5. Для проверки и исправления кода:  
+   ```bash
+   npm run lint
+   ```  
+
+## Используемый стек  
+
+- **Vue.js**  
+- **Pinia**  
+- **Vue CLI**  
